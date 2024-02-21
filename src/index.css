@@ -1,0 +1,55 @@
+  @font-face {
+    font-family: 'Fixel';
+    src: url('assets/fonts/FixelText-Regular.woff2');
+    /* add the file path to your font here */
+  }
+
+  @font-face {
+    font-family: 'Fixel';
+    src: url('assets/fonts/FixelText-RegularItalic.woff2');
+    font-style: italic;
+    /* add the file path to your font here */
+  }
+
+  @font-face {
+    font-family: 'Fixel';
+    src: url('assets/fonts/FixelText-Bold.woff2');
+    font-weight: bold;
+    /* add the file path to your font here */
+  }
+
+
+  :root {
+    font-family: Fixel !important;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  p {
+    font-family: Fixel;
+  }
+
+  div {
+    font-weight: bold;
+  }
+
+  link:hover {
+    text-decoration: underline;
+    color: #3700ff;
+  }
+
+  .link_icon {
+    stroke: #333;
+    transition: 0.1s ease-in-out,
+  }
+
+  .link_icon:hover path {
+    stroke: #5d31ff;
+    text-decoration: underline;
+    text-decoration-color: #3700ff;
+    text-decoration-thickness: 5px;
+  }
